@@ -19,7 +19,7 @@ const CONFIG = {
 
   // ── HERO SECTION ───────────────────────────────────────────────────────────
   hero: {
-    photo:      "photos/hero.jpg",          // Main photo — you and mom together
+    photo:      "1.jpg",          // Main photo — you and mom together
     headline:   "To the woman who raised me.",
     subheadline: "Happy Mother's Day"
   },
