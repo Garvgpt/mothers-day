@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Mother's Day</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Falling petals canvas (fixed, pointer-events: none) -->
+  <canvas id="petals" aria-hidden="true"></canvas>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <!-- Gradient fallback is always visible; photo layers on top when loaded -->
+    <div class="hero-gradient" aria-hidden="true"></div>
+    <img class="hero-photo" id="heroPhoto" alt="Hero photo">
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <h1 id="heroHeadline" class="hero-headline"></h1>
+      <p  id="heroSub"      class="hero-sub"></p>
+      <div class="hearts-row" aria-hidden="true">
+        <span class="heart">♥</span>
+        <span class="heart">♥</span>
+        <span class="heart">♥</span>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">
+        <span>scroll to explore</span>
+        <div class="chevron"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- wave divider -->
+  <div class="wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z" fill="#F7EDE8"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       TIMELINE
+  ════════════════════════════════════════════════════════════ -->
+  <section id="timeline">
+    <h2 class="section-title reveal">Our Story</h2>
+    <div class="timeline-track">
+      <!-- The rail grows as the user scrolls -->
+      <div class="timeline-rail" id="timelineRail"></div>
+      <!-- Entries injected by script.js -->
+      <div id="timelineEntries"></div>
+    </div>
+  </section>
+
+  <!-- wave divider (flipped) -->
+  <div class="wave wave-flip" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z" fill="#FDF8F3"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       POLAROID GALLERY
+  ════════════════════════════════════════════════════════════ -->
+  <section id="gallery">
+    <h2 class="section-title reveal">Our Favourite Moments</h2>
+    <p class="gallery-hint reveal">hover to lift &nbsp;·&nbsp; click to flip &nbsp;·&nbsp; click again for full photo</p>
+    <!-- Polaroids injected by script.js -->
+    <div class="polaroid-grid" id="polaroidGrid"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       LETTER
+  ════════════════════════════════════════════════════════════ -->
+  <section id="letter">
+    <div class="letter-wrap reveal">
+      <div class="letter-paper">
+        <p  class="letter-greeting" id="letterGreeting"></p>
+        <div class="letter-body"    id="letterBody"></div>
+        <p  class="letter-sig"      id="letterSig"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="hearts-row" aria-hidden="true">
+      <span class="heart">♥</span>
+      <span class="heart">♥</span>
+      <span class="heart">♥</span>
+    </div>
+    <p class="footer-text">Made with love, just for you.</p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       LIGHTBOX  (hidden until a photo is clicked)
+  ════════════════════════════════════════════════════════════ -->
+  <div id="lightbox" class="lightbox" hidden aria-modal="true" role="dialog" aria-label="Photo viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close">&#10005;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">&#8249;</button>
+    <div class="lb-stage">
+      <img id="lbImg" src="" alt="Enlarged photo">
+      <p  id="lbCaption" class="lb-caption"></p>
+      <p  id="lbCounter" class="lb-counter"></p>
+    </div>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <!-- Config first, then the script that reads it -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
