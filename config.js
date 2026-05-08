@@ -31,7 +31,7 @@ const CONFIG = {
       year:    "1998",
       title:   "The Beginning",
       caption: "The day that changed everything — and started the greatest adventure of our lives.",
-      photo:   "photos/timeline-1.jpg"
+      photo:   "./1.jpg"
     },
     {
       year:    "2004",
