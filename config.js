@@ -19,7 +19,7 @@ const CONFIG = {
 
   // ── HERO SECTION ───────────────────────────────────────────────────────────
   hero: {
-    photo:      "1.jpg",          // Main photo — you and mom together
+    photo:      "Garvgpt/mother-day/1.jpg",          // Main photo — you and mom together
     headline:   "To the woman who raised me.",
     subheadline: "Happy Mother's Day"
   },
