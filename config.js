@@ -52,16 +52,16 @@ const CONFIG = {
       photo:   "photos/timeline-3.jpg"
     },
     {
-      year:    "2017",
+      year:    "2024",
       title:   "New Chapters",
       caption: "No matter how much changed, you were always my constant.",
-      photo:   "photos/timeline-4.jpg"
+      photo:   "./img2.jpeg"
     },
     {
       year:    "Today",
       title:   "Here & Now",
       caption: "I am so lucky to have you in my corner, every single day.",
-      photo:   "./img6.jpg"
+      photo:   "./img6.jpeg"
     }
   ],
 
