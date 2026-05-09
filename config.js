@@ -77,7 +77,7 @@ const CONFIG = {
       photo:       "./IMG_7108.jpg",
       caption:     "Super Mom!",
       backMessage: "Now we know humaara TT khelne ka shauk kaha se aata hai ;)",
-      gallery:     ["./IMG_9001.jpg", "./IMG_7108.jpg"]
+      gallery:     ["./IMG_9001.jpg", "./IMG_7101.jpg"]
     },
     {
       photo:       "./IMG_8250.jpg",
@@ -92,16 +92,10 @@ const CONFIG = {
       gallery:     ["./img3.jpeg"]
     },
     {
-      photo:       "photos/polaroid-4.jpg",
-      caption:     "Holidays",
-      backMessage: "The best part of every holiday was always just being together.",
-      gallery:     []
-    },
-    {
-      photo:       "photos/polaroid-5.jpg",
-      caption:     "Today & Always",
-      backMessage: "Here's to all the adventures still ahead of us. ♥",
-      gallery:     []
+      photo:       "./IMG_1873.heif",
+      caption:     "Fairy Among Us",
+      backMessage: "Itna pretty aur sundar koi kaise ho sakta hai hayeee <3",
+      gallery:     ["./img4.jpeg"]
     }
   ],
 
