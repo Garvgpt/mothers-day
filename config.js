@@ -43,25 +43,25 @@ const CONFIG = {
       year:    "2019",
       title:   "You in Every Chapter",
       caption: "Turns out, our favorite photos always had one thing in common — you!",
-      photo:   "./IMG_9413.jpg"
+      photo:   "./IMG_9413.JPG"
     },
     {
       year:    "2024",
       title:   "Growing Up",
-      caption: "The years flew by so fast — but my favourite memories are from right here.",
+      caption: "The years flew by so fast — but our favourite memories are from right here.",
       photo:   "./img7.jpeg"
     },
     {
       year:    "2024",
       title:   "New Chapters",
-      caption: "No matter how much changed, you were always my constant.",
+      caption: "No matter how much changed, you were always our constant.",
       photo:   "./img2.jpeg"
     },
     {
       year:    "Today",
       title:   "Here & Now",
-      caption: "I am so lucky to have you in my corner, every single day.",
-      photo:   "./img6.jpeg"
+      caption: "We are so lucky to have you in our corner, every single day.",
+      photo:   "./img6_edit.jpeg"
     }
   ],
 
