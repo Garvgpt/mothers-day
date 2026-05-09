@@ -74,9 +74,9 @@ const CONFIG = {
   //   e.g.  gallery: ["photos/trip-2.jpg", "photos/trip-3.jpg"]
   polaroids: [
     {
-      photo:       "photos/polaroid-1.jpg",
-      caption:     "Summer 2010",
-      backMessage: "The summer I learned that home is wherever you are.",
+      photo:       "./IMG_7108.jpg",
+      caption:     "Super Mom!",
+      backMessage: "Now we know humaara TT khelne ka shauk kaha se aata hai ;)",
       gallery:     []
     },
     {
