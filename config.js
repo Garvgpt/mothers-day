@@ -77,19 +77,19 @@ const CONFIG = {
       photo:       "./IMG_7108.jpg",
       caption:     "Super Mom!",
       backMessage: "Now we know humaara TT khelne ka shauk kaha se aata hai ;)",
-      gallery:     []
+      gallery:     ["./IMG_9001.jpg", "./IMG_7108.jpg"]
     },
     {
-      photo:       "photos/polaroid-2.jpg",
-      caption:     "Birthday Joy",
-      backMessage: "You always made every birthday feel like the most magical day in the world.",
-      gallery:     []
+      photo:       "./IMG_8250.jpg",
+      caption:     "Insanely Caring",
+      backMessage: "Gucchi ko aapki godi mein dekh ke mai jealous ho jaata hu",
+      gallery:     ["./IMG_8011.jpg"]
     },
     {
-      photo:       "photos/polaroid-3.jpg",
-      caption:     "Family Dinner",
-      backMessage: "Your cooking is the taste of home — nothing in the world comes close.",
-      gallery:     []
+      photo:       "./img5.jpeg",
+      caption:     "Strength toh hai",
+      backMessage: "Sabse fast the hum dono hehe",
+      gallery:     ["./img3.jpeg"]
     },
     {
       photo:       "photos/polaroid-4.jpg",
