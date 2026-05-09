@@ -19,8 +19,8 @@ const CONFIG = {
 
   // ── HERO SECTION ───────────────────────────────────────────────────────────
   hero: {
-    photo:      "./hero.jpg",          // Main photo — you and mom together
-    headline:   "To the woman who raised me.",
+    photo:      "./hero1.jpg",          // Main photo — you and mom together
+    headline:   "To the woman who raised us.",
     subheadline: "Happy Mother's Day"
   },
 
@@ -28,9 +28,9 @@ const CONFIG = {
   // Entries alternate left/right automatically. Add as many as you like.
   timeline: [
     {
-      year:    "1998",
-      title:   "The Beginning",
-      caption: "The day that changed everything — and started the greatest adventure of our lives.",
+      year:    "2007",
+      title:   "Early Days",
+      caption: "Start of the greatest adventure of our lives!",
       photo:   "./1.jpg"
     },
     {
