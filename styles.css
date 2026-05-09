@@ -192,7 +192,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .hero-sub {
   font-family: var(--font-hand);
   font-size: clamp(1.6rem, 3.5vw, 2.8rem);
-  color: var(--rose);
+  color: var(--dark);
   margin-bottom: 1.5rem;
 }
 
