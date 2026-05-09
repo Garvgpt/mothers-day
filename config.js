@@ -27,15 +27,21 @@ const CONFIG = {
   // ── TIMELINE ───────────────────────────────────────────────────────────────
   // Entries alternate left/right automatically. Add as many as you like.
   timeline: [
+     {
+      year:    "2004",
+      title:   "The Beginning",
+      caption: "The day that changed everything — and started the greatest adventure of our lives.",
+      photo:   "./old_img.jpg"
+    },
     {
       year:    "2007",
       title:   "Early Days",
-      caption: "Start of the greatest adventure of our lives!",
+      caption: "You were always there, cheering us on every single step of the way.",
       photo:   "./1.jpg"
     },
     {
-      year:    "2004",
-      title:   "Early Days",
+      year:    "2008",
+      title:   "Sometime in the Past",
       caption: "You were always there, cheering me on every single step of the way.",
       photo:   "photos/timeline-2.jpg"
     },
@@ -55,7 +61,7 @@ const CONFIG = {
       year:    "Today",
       title:   "Here & Now",
       caption: "I am so lucky to have you in my corner, every single day.",
-      photo:   "photos/timeline-5.jpg"
+      photo:   "./img6.jpg"
     }
   ],
 
