@@ -40,16 +40,16 @@ const CONFIG = {
       photo:   "./1.jpg"
     },
     {
-      year:    "2008",
-      title:   "Sometime in the Past",
-      caption: "You were always there, cheering me on every single step of the way.",
-      photo:   "photos/timeline-2.jpg"
+      year:    "2019",
+      title:   "You in Every Chapter",
+      caption: "Turns out, our favorite photos always had one thing in common — you!",
+      photo:   "./IMG_9413.jpg"
     },
     {
-      year:    "2010",
+      year:    "2024",
       title:   "Growing Up",
       caption: "The years flew by so fast — but my favourite memories are from right here.",
-      photo:   "photos/timeline-3.jpg"
+      photo:   "./img7.jpeg"
     },
     {
       year:    "2024",
