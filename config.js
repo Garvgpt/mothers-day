@@ -93,7 +93,7 @@ const CONFIG = {
     },
     {
       photo:       "./IMG_1873.heif",
-      caption:     "Fairy Among Us",
+      caption:     "Fairy on Earth",
       backMessage: "Itna pretty aur sundar koi kaise ho sakta hai hayeee <3",
       gallery:     ["./img4.jpeg"]
     }
