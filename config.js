@@ -53,8 +53,8 @@ const CONFIG = {
     },
     {
       year:    "2024",
-      title:   "New Chapters",
-      caption: "No matter how much changed, you were always our constant.",
+      title:   "Sometime Ago",
+      caption: "Always always been our constant!",
       photo:   "./img2.jpeg"
     },
     {
@@ -105,11 +105,15 @@ const CONFIG = {
     greeting:  "Dear Mom,",
     body: `There are so many things I want to say that I never quite find the words for in the moment. So I built you this — a little corner of the internet that belongs entirely to us.
 
-Thank you for every early morning, every packed lunch, every time you stayed up waiting to hear that I got home safe. Thank you for believing in me when I found it impossible to believe in myself, and for the way you love — without condition, without limit, without asking for anything in return.
+Thank you for every early morning, every packed lunch, every time you stayed up waiting for me to return home. Thank you for believing in me when I found it impossible to believe in myself, and for the way you love — without condition, without limit, without asking for anything in return.
 
 Every good thing about me started with you.
 
-I hope this little site makes you smile the way you have made me smile every single day of my life.`,
+I hope this little site makes you smile the way you have made me smile every single day of my life.
+
+And if I somehow forget to say it enough in the rush of everyday life, I hope you always know this — no matter how old I get, no matter where life takes me, there will always be a part of me that still looks for you first. For comfort, for advice, for home.
+
+Thank you for being my safest place, my biggest blessing, and the quiet kind of love that makes everything in life feel a little less scary. I love you more than words will probably ever be able to explain.`,
     signature: "With all my love, always"
   }
 
